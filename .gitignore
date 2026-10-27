@@ -1,0 +1,23 @@
+# Credentials & Secrets
+secrets.h
+**/secrets.h
+
+# Arduino IDE installed libraries
+libraries/
+
+# OS specific files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Build / Compiled artifacts
+build/
+*.bin
+*.hex
+*.elf
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.swp
+*~
