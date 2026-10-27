@@ -4,7 +4,7 @@ A collection of embedded systems and IoT projects built with Arduino and ESP32 m
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -20,11 +20,11 @@ A collection of embedded systems and IoT projects built with Arduino and ESP32 m
 
 ---
 
-## 🌟 Featured Project: Atmosphere – Smart Room Environment Monitor
+## Featured Project: Atmosphere – Smart Room Environment Monitor
 
 An IoT room monitoring station powered by an **ESP32**, **DHT11 sensor**, and **0.96" SSD1306 I2C OLED display**. The ESP32 hosts an interactive web dashboard directly on the local network, allowing real-time monitoring and control from your phone or computer.
 
-### ✨ Key Features
+### Key Features
 - **Live Environmental Readings**: Periodic sampling of temperature (°C) and relative humidity (%).
 - **Onboard OLED Display**: Displays current temperature, humidity, connection status, and status indicators.
 - **Embedded Web Dashboard**:
@@ -37,7 +37,7 @@ An IoT room monitoring station powered by an **ESP32**, **DHT11 sensor**, and **
   - Toggle OLED screen power and compact display modes remotely.
   - Trigger device reboot from the dashboard.
 
-### 🔌 Pin Configuration
+### Pin Configuration
 
 | Component | Pin / Signal | ESP32 GPIO | Notes |
 | :--- | :--- | :--- | :--- |
@@ -47,14 +47,14 @@ An IoT room monitoring station powered by an **ESP32**, **DHT11 sensor**, and **
 | **SSD1306 OLED** | SCL | `GPIO 22` | I2C Clock |
 | **SSD1306 OLED** | VCC / GND | `3.3V` / `GND` | Power supply |
 
-### 📦 Required Arduino Libraries
+### Required Arduino Libraries
 Install the following via the Arduino IDE Library Manager:
 - **Adafruit SSD1306**
 - **Adafruit GFX Library**
 - **DHT sensor library** (Adafruit)
 - **Adafruit Unified Sensor**
 
-### 🚀 Getting Started
+### Getting Started
 
 1. **Clone the repository:**
    ```bash
@@ -84,12 +84,12 @@ Install the following via the Arduino IDE Library Manager:
 
 ---
 
-## 🧪 Project: DHT11 Quick Test (`sketch_aug5a`)
+## Project: DHT11 Quick Test (`sketch_aug5a`)
 
 A lightweight starter sketch to verify wiring and functionality of a DHT11 sensor on GPIO 4 with output streamed to the Serial Monitor at 115200 baud.
 
 ---
 
-## 🔒 Security Note
+## Security Note
 
 Sensitive configuration like network credentials are kept in `secrets.h`, which is listed in `.gitignore` to prevent accidental credential leakage. Never commit `secrets.h` to source control.
